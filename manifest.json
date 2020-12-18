@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Zoom Now",
+  "description": "Allows to open Zoom links directly in the desktop app.",
+  "version": "0.1.0",
+  "icons": {
+    "48": "icons/icon48.png",
+    "96": "icons/icon96.png",
+    "128": "icons/icon128.png"
+  },
+  "background": {
+    "scripts": [
+      "background/handler.js"
+    ]
+  },
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "https://*.zoom.us/j/*",
+    "https://zoom.us/j/*"
+  ]
+}

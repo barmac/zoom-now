@@ -1,0 +1,17 @@
+{
+  "name": "zoom-now",
+  "version": "0.1.0",
+  "description": "Allows to open Zoom links directly in the desktop app.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "web-ext run --verbose",
+    "build": "web-ext build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Maciej Barelkowski <maciejbarel@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "web-ext": "^5.4.1"
+  }
+}

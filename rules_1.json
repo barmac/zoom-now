@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "regexSubstitution": "zoommtg://\\1.zoom.us/join?action=join&confno=\\2&pwd=\\3"
+      }
+    },
+    "condition": {
+      "regexFilter": "^https://(\\w+)\\.zoom\\.us/j/(\\d+)\\?pwd=(.*)",
+      "resourceTypes": [
+        "main_frame"
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "priority": 2,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "regexSubstitution": "zoommtg://\\1.zoom.us/join?action=join&confno=\\2"
+      }
+    },
+    "condition": {
+      "regexFilter": "^https://(\\w+)\\.zoom\\.us/j/(\\d+)$",
+      "resourceTypes": [
+        "main_frame"
+      ]
+    }
+  }
+]

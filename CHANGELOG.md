@@ -6,6 +6,10 @@ All notable changes to [zoom-now](https://github.com/barmac/zoom-now) are docume
 
 ___Note:__ Yet to be released changes appear here._
 
+## 0.2.1
+
+* `FIX`: add extension ID for Firefox compliance
+
 ## 0.2.0
 
 * `FEAT`: migrate to manifest v3

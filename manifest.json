@@ -2,11 +2,16 @@
   "manifest_version": 3,
   "name": "Zoom Now",
   "description": "Allows to open Zoom links directly in the desktop app.",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "icons": {
     "48": "icons/icon48.png",
     "96": "icons/icon96.png",
     "128": "icons/icon128.png"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{6b156e89-9c2b-46db-8082-4b0e46984f32}"
+    }
   },
   "declarative_net_request": {
     "rule_resources": [
